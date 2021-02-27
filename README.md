@@ -2,9 +2,9 @@
 
 ---
 ## Links
-GH repo: []()
+GH repo: [https://github.com/nozky/cpnt262-a2](https://github.com/nozky/cpnt262-a2)
 
-GH page: []()
+GH page: [https://nozky.github.io/cpnt262-a2/](https://nozky.github.io/cpnt262-a2/)
 
 ---
 ## Attribution
