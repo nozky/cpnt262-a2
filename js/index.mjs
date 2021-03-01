@@ -12,19 +12,23 @@ images.forEach(image => {
   const newImageCon = document.createElement("div");
   newImageCon.classList.add("image-container");
   
+  // image container childs
   const newImg = document.createElement("img");
   newImg.loading='lazy';
   newImg.src = image.pathUrl;
   newImg.width = image.width;
   newImg.height = image.height;
 
+  // create new fig caption
   const newFigcaption = document.createElement("figcaption");
   newFigcaption.innerHTML = image.title;
 
+  // create new figure
   const newFigure = document.createElement("figure");
   newFigure.append(newImg,newFigcaption);
   
 
+  // append child
   newImageCon.appendChild(newFigure);
 
 
@@ -32,6 +36,7 @@ images.forEach(image => {
   const newInfoCon = document.createElement('div');
   newInfoCon.classList.add('info');
 
+  // using innerHtml to add childs
   const template = `
                     <p><b>ID:</b> ${image.id}</p>
                     <p><b>Description:</b> ${image.desciption}</p>
@@ -42,7 +47,7 @@ images.forEach(image => {
   newImageCon.appendChild(newInfoCon)
 
 
-  // parent element
+  // gallery section / parent element
   imageGallery.appendChild(newImageCon);
 
 
