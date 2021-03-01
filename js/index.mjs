@@ -41,7 +41,7 @@ images.forEach(image => {
                     <p><b>ID:</b> ${image.id}</p>
                     <p><b>Description:</b> ${image.desciption}</p>
                     <p><b>More Info: </b><a href="${image.linkUrl}" target="_blank">${image.linkUrl}</a></p>
-                    <p><b>Credit:</b> <a href = "${image.creditURL}" target="_blank"> ${image.credit}</a></p>
+                    <p><b>Credit:</b> <a href = "${image.creditUrl}" target="_blank"> ${image.credit}</a></p>
                    `
   newInfoCon.innerHTML = template
   newImageCon.appendChild(newInfoCon)

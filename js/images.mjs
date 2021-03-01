@@ -1,3 +1,6 @@
+// I use the width and height as an img width and height properly.
+// Also linkUrl, pathUrl, creditUrl  an actual links in the images.
+
 export const images = [
   {
     "id": 1000,
@@ -8,7 +11,7 @@ export const images = [
     "pathUrl": "./assets/images/1000.jpg",
     "linkUrl": "https://en.wikipedia.org/wiki/Renault_Twizy",
     "credit": "Andrew Moseman",
-    "creditURL": "https://www.popularmechanics.com/cars/hybrid-electric/a19841398/renault-twizy-bermuda-electric-car/"
+    "creditUrl": "https://www.popularmechanics.com/cars/hybrid-electric/a19841398/renault-twizy-bermuda-electric-car/"
   },
   {
     "id": 2000,
@@ -19,7 +22,7 @@ export const images = [
     "pathUrl": "./assets/images/2000.jpg",
     "linkUrl": "https://www.caranddriver.com/reviews/a15092127/2016-ford-mustang-gt-long-term-test-wrap-up-review/",
     "credit": "Joey Banks",
-    "creditURL": "https://unsplash.com/@joeyabanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@joeyabanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 3000,
@@ -30,7 +33,7 @@ export const images = [
     "pathUrl": "./assets/images/3000.jpg",
     "linkUrl": "https://en.wikipedia.org/wiki/Bugatti_Chiron",
     "credit": "David Levêque",
-    "creditURL": "https://unsplash.com/@davidleveque?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@davidleveque?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 4000,
@@ -41,7 +44,7 @@ export const images = [
     "pathUrl": "./assets/images/4000.jpg",
     "linkUrl": "https://www.caranddriver.com/tesla/model-3",
     "credit": "Austin Ramsey",
-    "creditURL": "https://unsplash.com/@austin__ramsey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@austin__ramsey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 5000,
@@ -52,7 +55,7 @@ export const images = [
     "pathUrl": "./assets/images/5000.jpg",
     "linkUrl": "https://en.wikipedia.org/wiki/Buick_Riviera",
     "credit": "Danny Larsen",
-    "creditURL": "https://unsplash.com/@zuko_dk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@zuko_dk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 6000,
@@ -63,7 +66,7 @@ export const images = [
     "pathUrl": "./assets/images/6000.jpg",
     "linkUrl": "https://www.caranddriver.com/features/g15378761/volkswagen-beetle-models-by-year/",
     "credit": "Katka Pavlickova",
-    "creditURL": "https://unsplash.com/@katerinapavlickova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@katerinapavlickova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 7000,
@@ -74,7 +77,7 @@ export const images = [
     "pathUrl": "./assets/images/7000.jpg",
     "linkUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_W123",
     "credit": " Markus Spiske",
-    "creditURL": "https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 8000,
@@ -85,7 +88,7 @@ export const images = [
     "pathUrl": "./assets/images/8000.jpg",
     "linkUrl": "https://www.caranddriver.com/ford/mustang-mach-e",
     "credit": "Bram Van Oost",
-    "creditURL": "https://unsplash.com/@ort?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@ort?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
   {
     "id": 9000,
@@ -96,6 +99,6 @@ export const images = [
     "pathUrl": "./assets/images/9000.jpg",
     "linkUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan",
     "credit": "Toni Zaat",
-    "creditURL": "https://unsplash.com/@tonizaat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    "creditUrl": "https://unsplash.com/@tonizaat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
   },
 ]
