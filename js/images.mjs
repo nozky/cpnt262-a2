@@ -1,5 +1,6 @@
 // I use the width and height as an img width and height properly.
 // Also linkUrl, pathUrl, creditUrl  an actual links in the images.
+// No optimisation, i just used lazy loading.
 
 export const images = [
   {

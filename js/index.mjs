@@ -12,9 +12,10 @@ images.forEach(image => {
   const newImageCon = document.createElement("div");
   newImageCon.classList.add("image-container");
   
-  // image container childs
+  // image container child
   const newImg = document.createElement("img");
   newImg.loading='lazy';
+  newImg.alt = image.title;
   newImg.src = image.pathUrl;
   newImg.width = image.width;
   newImg.height = image.height;
